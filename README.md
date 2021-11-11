@@ -20,7 +20,7 @@ docker build \
 --build-arg NGINX_TAG=1.21.4 \
 --build-arg VCS_REF=`git rev-parse --short HEAD` \
 --build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
--t funnyzak:nginx-with-modules:1.21.4 .
+-t funnyzak/nginx-with-modules:1.21.4 .
 ```
 
 ## Usage
